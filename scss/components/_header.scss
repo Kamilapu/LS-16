@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 47rem;
+  padding-bottom: 62rem;
+
+  &__logo {
+    color: $text-color;
+    font-size: 24rem;
+    font-weight: 600;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 24rem;
+  }
+
+  &__nav-name {
+    color: #000;
+    font-size: 16rem;
+    font-weight: 400;
+  }
+
+  &__home {
+    color: $primary-color;
+  }
+
+  &__field-for-search {
+    display: block;
+    position: relative;
+  }
+
+  &__input {
+    max-width: 278rem;
+    width: 100%;
+    border-radius: 50rem;
+    background: #000;
+    color: #fff;
+    font-size: 14rem;
+    font-weight: 400;
+
+    padding: 11rem 39rem 12rem 18rem;
+  }
+
+  &__search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    right: 15rem;
+  }
+}
