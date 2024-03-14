@@ -1,0 +1,90 @@
+.main {
+  margin-top: 111rem;
+
+  &__title {
+    color: $text-color;
+    font-size: 48rem;
+    font-weight: 700;
+
+    text-align: center;
+    margin-bottom: 56rem;
+  }
+
+  &__descript {
+    color: $text-color;
+    text-align: center;
+    font-size: 16rem;
+    font-weight: 400;
+
+    margin-bottom: 111rem;
+    max-width: 837px;
+    margin-inline: auto;
+  }
+
+  &__grid {
+    text-align: center;
+    margin-bottom: 111rem;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30rem;
+}
+
+.col {
+  flex: 0 1 calc((100% - 30rem * 2) / 3);
+
+  border-radius: 15rem;
+  background: #f9f1fe;
+  padding: 46rem 26rem 51rem 26rem;
+}
+
+.col > img {
+  padding-bottom: 27rem;
+}
+
+.grid-name {
+  color: $text-color;
+  font-size: 24rem;
+  font-weight: 600;
+
+  padding-bottom: 17rem;
+}
+
+.grid-descrip {
+  color: #575757;
+  text-align: center;
+  font-size: 16rem;
+  font-weight: 400;
+
+  padding-bottom: 6rem;
+}
+
+.col-middle {
+  border-radius: 15rem;
+  background: $primary-color;
+}
+
+.n-middle {
+  color: #fff;
+}
+
+.d-middle {
+  color: white;
+}
+
+.a-grid {
+  color: $primary-color;
+  font-size: 16rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+
+.a-middle {
+  color: #fff;
+  font-size: 16rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
