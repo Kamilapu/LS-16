@@ -1,0 +1,84 @@
+.main-doctor {
+  &__tittle {
+    text-align: center;
+    color: $text-color;
+    font-size: 48rem;
+    font-weight: 700;
+    padding-bottom: 56rem;
+  }
+
+  &__description {
+     max-width: 837rem;
+     margin-inline: auto;
+    text-align: center;
+    color: $text-color;
+    font-size: 16rem;
+    font-weight: 400;
+    padding-bottom: 111rem;
+  }
+}
+
+.doctor-block {
+  display: flex;
+  gap: 27rem;
+  padding-bottom: 28rem;
+}
+
+.doctor {
+  border-radius: 20rem;
+  background: $background-color;
+  text-align: center;
+
+  padding: 44rem 38rem 33rem 39rem;
+
+  &__card {
+    display: flex;
+    align-items: center;
+    padding-bottom: 25rem;
+  }
+
+  &__photo {
+    max-width: 100%;
+    margin-right: 13rem;
+  }
+
+  &__name {
+    text-align: start;
+  }
+
+  &__card-title {
+    color: $text-color;
+    font-size: 20rem;
+    font-weight: 600;
+  }
+
+  &__card-title-prof {
+    color: $text-color;
+    font-size: 16rem;
+    font-weight: 400;
+  }
+}
+
+.card-text {
+  &__description {
+    color: #575757;
+    font-size: 16rem;
+    font-weight: 400;
+    margin-bottom: 28rem;
+    text-align: start;
+  }
+
+  &__btn {
+    display: inline-block;
+    border-radius: 50rem;
+    background-color: $primary-color;
+    padding: 10rem 49rem;
+    color: #f9f1fe;
+    font-size: 20rem;
+    font-weight: 600;
+  }
+}
+
+.block-down {
+     margin-bottom: 102rem;
+}

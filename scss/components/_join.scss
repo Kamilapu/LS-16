@@ -1,0 +1,47 @@
+.join {
+  border-radius: 10rem;
+  background-color: #1c1b1f;
+  text-align: center;
+  padding: 77rem 100rem 83rem 100rem;
+  margin-bottom: 130rem;
+
+  &__title {
+    color: #fff;
+    font-size: 36rem;
+    font-weight: 700;
+    margin-bottom: 47rem;
+  }
+}
+
+.join-form {
+  border-radius: 50rem;
+  background: $background-color;
+  padding: 10rem 14rem 10rem 31rem;
+  display: flex;
+  gap: 10rem;
+
+  &__input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background: transparent;
+    color: $primary-color;
+    font-size: 16rem;
+    font-weight: 400;
+
+    &::placeholder {
+      color: #6c6c6c;
+    }
+  }
+
+  &__btn {
+     display: inline-block;
+     cursor: pointer;
+    border-radius: 22rem;
+    background: $primary-color;
+    color: #fff;
+    font-size: 20rem;
+    font-weight: 600;
+    padding: 10rem 25rem;
+  }
+}
