@@ -51,6 +51,13 @@ li {
   color: #262626;
   font-size: 24rem;
   font-weight: 600;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+.header__logo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #8842F0;
 }
 .header__nav {
   display: -webkit-box;
@@ -62,6 +69,13 @@ li {
   color: #000;
   font-size: 16rem;
   font-weight: 400;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+.header__nav-name:hover {
+  -webkit-transform: scale(3);
+          transform: scale(3);
+  color: #8842F0;
 }
 .header__home {
   color: #8842F0;
@@ -82,16 +96,16 @@ li {
   padding: 11rem 39rem 12rem 18rem;
 }
 .header__input::-webkit-input-placeholder {
-  color: #FFF;
+  color: #fff;
 }
 .header__input:-ms-input-placeholder {
-  color: #FFF;
+  color: #fff;
 }
 .header__input::-ms-input-placeholder {
-  color: #FFF;
+  color: #fff;
 }
 .header__input::placeholder {
-  color: #FFF;
+  color: #fff;
 }
 .header__search {
   position: absolute;
@@ -100,6 +114,10 @@ li {
           transform: translateY(-50%);
   cursor: pointer;
   right: 15rem;
+}
+
+.owl-carousel {
+  margin-bottom: 111rem;
 }
 
 .main__title {
@@ -189,7 +207,7 @@ li {
           text-decoration-line: underline;
 }
 
-.main-doctor__tittle {
+.main-doctor__title {
   text-align: center;
   color: #262626;
   font-size: 48rem;
@@ -321,4 +339,63 @@ li {
   font-size: 20rem;
   font-weight: 600;
   padding: 10rem 25rem;
+}
+
+.footer {
+  background-color: #f9f1fe;
+  color: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 108rem;
+  padding-top: 106rem;
+  padding-bottom: 77rem;
+}
+.footer__info {
+  max-width: 431rem;
+}
+.footer__title {
+  font-size: 24rem;
+  font-weight: 600;
+  padding-bottom: 26rem;
+}
+.footer__description {
+  font-size: 16rem;
+  font-weight: 400;
+}
+.footer__link-name {
+  font-size: 20rem;
+  font-weight: 600;
+  padding-bottom: 9rem;
+}
+.footer__link {
+  font-size: 16rem;
+  font-weight: 400;
+}
+.footer__hour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 11rem;
+}
+.footer__hour-name {
+  font-size: 20rem;
+  font-weight: 600;
+  padding-bottom: 6rem;
+}
+.footer__day-hour {
+  font-size: 16rem;
+  font-weight: 400;
+}
+
+li > a {
+  color: #262626;
+}
+
+.links {
+  padding-bottom: 33rem;
 }

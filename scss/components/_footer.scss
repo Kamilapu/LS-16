@@ -1,0 +1,62 @@
+.footer {
+  background-color: $background-color;
+  color: $text-color;
+  display: flex;
+  gap: 108rem;
+  padding-top: 106rem;
+  padding-bottom: 77rem;
+
+  &__info {
+    max-width: 431rem;
+  }
+
+  &__title {
+    font-size: 24rem;
+    font-weight: 600;
+    padding-bottom: 26rem;
+  }
+
+  &__description {
+    font-size: 16rem;
+    font-weight: 400;
+  }
+
+  &__nav {
+  }
+
+  &__link-name {
+    font-size: 20rem;
+    font-weight: 600;
+    padding-bottom: 9rem;
+  }
+
+  &__link {
+    font-size: 16rem;
+    font-weight: 400;
+  }
+
+  &__hour {
+    display: flex;
+    flex-direction: column;
+    gap: 11rem;
+  }
+
+  &__hour-name {
+    font-size: 20rem;
+    font-weight: 600;
+    padding-bottom: 6rem;
+  }
+
+  &__day-hour {
+    font-size: 16rem;
+    font-weight: 400;
+  }
+}
+
+li > a {
+  color: $text-color;
+}
+
+.links {
+  padding-bottom: 33rem;
+}

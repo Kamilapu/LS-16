@@ -10,18 +10,33 @@
     color: $text-color;
     font-size: 24rem;
     font-weight: 600;
-  }
+    transition: 0.5s all ease-in-out;
 
+    &:hover {
+      transform: scale(1.1);
+      color: $primary-color;
+    }
+  }
+  
+  
   &__nav {
     display: flex;
     gap: 24rem;
-  }
 
+  }
+  
   &__nav-name {
     color: #000;
     font-size: 16rem;
     font-weight: 400;
-  }
+    transition: 0.5s all ease-in-out;
+
+    &:hover {
+      transform: scale(3);
+      color: $primary-color;
+    }
+ }
+    
 
   &__home {
     color: $primary-color;
@@ -45,7 +60,7 @@
     padding: 11rem 39rem 12rem 18rem;
 
     &::placeholder {
-      color: #FFF;
+      color: #fff;
     }
   }
 
@@ -55,5 +70,5 @@
     transform: translateY(-50%);
     cursor: pointer;
     right: 15rem;
-  }
+  } 
 }

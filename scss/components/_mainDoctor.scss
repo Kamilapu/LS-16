@@ -1,12 +1,13 @@
 .main-doctor {
-  &__tittle {
+  &__title {
     text-align: center;
     color: $text-color;
     font-size: 48rem;
     font-weight: 700;
     padding-bottom: 56rem;
+    
   }
-
+  
   &__description {
      max-width: 837rem;
      margin-inline: auto;
